@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>易迅</title>
+    <style>
+        li {
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+        .yx {
+            background-color: #317ee8;
+            color: #fff;
+            width: 990px;
+        }
+
+        .yx ul {
+            display: flex;
+            padding: 0;
+        }
+
+        .yx .qb {
+            text-align: left;
+            width: 190px;
+            line-height: 30px;
+            padding-left: 10px;
+            position: relative;
+        }
+
+        .yx .qb img{
+            position: absolute;
+            top:10px;
+            left:180px;
+        }
+
+        .yc{
+            background-color: #317ee8;
+            width: 200px;
+            color:#fff;
+            top:32px;
+            font-size: 10px;
+            left:0;
+            position: absolute;
+            display: none;
+        }
+
+        .qb .yc span{
+            padding:5px;
+            display: block;
+        }
+
+        .qb .yc img{
+            position: absolute;
+            top:30px;
+            left:180px;
+        }
+
+        .qb:hover .yc{
+            display: block;
+        }
+
+        .yx>ul>span {
+            background-color: #ffb901;
+            padding: 5px 35px;
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+        }
+
+        .yx li {
+            padding: 5px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yx">
+        <ul>
+            <div class="qb">全部分类<img src="images/19.png" alt="">
+                <div class="yc">
+                    <span>手机/配件</span> 
+                    <span>三星，索尼，HTC</span>
+                    <img src="images/20.png" alt="">
+                </div>
+            </div>
+            <span><a href="#">首页</a></span>
+            <li><a href="#">QQ网购</a></li>
+            <li><a href="#">装机宝</a></li>
+            <li><a href="#">早市</a></li>
+            <li><a href="#">天黑黑</a></li>
+            <li><a href="#">二手特卖</a></li>
+            <li><a href="#">团购</a></li>
+        </ul>
+    </div>
+    
+</body>
+
+</html>

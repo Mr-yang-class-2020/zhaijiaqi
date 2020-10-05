@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏宁易购</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .snyg{
+            display: flex;
+            width: 1000px;
+            background-image: linear-gradient(#fdfdfd, #efefef);
+            border-top:1px solid #e3e3e3;
+            border-right:1px solid #e3e3e3;
+            position: relative;
+            border-bottom:2px solid #666666;
+        }
+        .snyg .qb{
+            color:#fff;
+            width: 190px;
+            line-height: 36px;
+            background-image: linear-gradient(#747474, #54595d);
+            position: relative;
+        }
+        .snyg .qb img{
+            position: absolute;
+            top:9px;
+            left:160px;
+        }
+        .snyg li{
+            padding:8px 10px;
+        }
+        .snyg li a{
+            color:black;
+            font-weight: bolder;
+        }
+        .snyg .gwc img{
+            position: absolute;
+            right:5px;
+            top:4px;
+        }
+        .snyg .qb .yc{
+            display: none;
+            width: 190px;
+            position: absolute;
+        }
+        .snyg .qb:hover .yc{
+            display: block;
+        }
+
+        .snyg .qb .yc span{
+            display: block;
+            padding-left:10px;
+        }
+        .snyg .qb .yc span a{
+            color: #fff;
+        }
+
+        .snyg .qb .yc .yc1{
+            background-color: #dd301f;
+            margin-top:4px;
+        }
+        .snyg .qb .yc .yc2,.yc3{
+            background-color: #213ca3;
+        }
+    </style> 
+</head>
+<body>
+    <div class="snyg">
+        <div class="qb">
+            &nbsp;&nbsp;
+            全部商品分类
+            <img src="images/25.png" alt="">
+            <div class="yc">
+                <span class="yc1"><a href="#">优惠活动</a></span>
+                <span class="yc2"><a href="#">电脑、数码</a></span>
+                <span class="yc3"><a href="#">电脑、办公</a></span>   
+            </div>
+        </div>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">品牌旗舰店</a></li>
+        <li><a href="#">城市专区</a></li>
+        <li><a href="#">生活助手</a></li>
+        <li><a href="#">旅行</a></li>
+        <li><a href="#">服务易找</a></li>
+        <li><a href="#">积分商城</a></li>
+        <li><a href="#">社区</a></li>
+        <div class="gwc"><img src="images/26.png" alt=""></div>
+    </div>
+</body>
+</html>

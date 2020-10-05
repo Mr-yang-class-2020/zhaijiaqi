@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>库巴</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+        .kb{
+            width: 760px;
+            display: flex;                 
+            background-image: linear-gradient(#fa7c03, #de4a04); 
+        }
+        .kb .qb{
+            font-weight: bold;
+            border-radius:3px 0 0 0; 
+            font-size:13px;
+            padding:5px 50px;
+            line-height: 25px;
+            background-color: #fc8002;
+            position: relative;
+        }
+        .kb .qb .yc{
+            position: absolute;
+            background-color: #fffcf7;
+            top:35px;
+            left:0;
+            padding:0 10px;
+            width: 155px;
+            display: none;
+            border-left: 2px solid #fc8002;
+            border-right: 2px solid #fc8002;
+        }
+        .kb .qb:hover .yc{
+            display: block;
+        } 
+        .kb .qb .yc .xb{
+            border-bottom:1px solid #f6e8dd;
+        }
+        .kb .qb .yc p{
+            padding:10px 25px;
+            position: relative;
+            margin:0;
+        }
+        .kb .qb .yc p img{
+            position: absolute;
+            top:18px;
+            right:5px;
+        }
+        .kb .qb .yc p .d{
+            position: absolute;
+            left:10px;
+        }
+        .kb .qb .yc p a{
+            color: black;
+        }
+      
+        .kb li{
+            padding:5px 25px;
+            line-height: 25px;
+            border-left:1px solid #ef7204;
+            border-right:1px solid #e55300;
+        }
+    </style>
+</head>
+<body>
+    <div class="kb">
+        <div class="qb">
+            <a href="#" style="font-size: 15px;">全部商品分类</a>
+            <div class="yc">
+                <p class="xb"><img class="d" src="images/34.png" alt=""><a href="#">大家电</a><img src="images/35.png" alt=""></p>
+                <p><img class="d" src="images/34.png" alt=""><a href="#">手机、数码</a><img src="images/35.png" alt=""></p>
+            </div>
+        </div>
+        <li class="sy"><a href="#">首页</a></li>
+        <li><a href="#">抢购</a></li>
+        <li><a href="#">团购</a></li>
+        <li><a href="#">城市专区</a></li>
+        <li><a href="#">节能产品</a></li>
+    </div>
+</body>
+</html>

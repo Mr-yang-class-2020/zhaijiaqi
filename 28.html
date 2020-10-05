@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ商城</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color:#fff; 
+        }
+        .sc{
+            width: 1000px;
+            display: flex;
+            background-color: #cc1108;
+        }
+        .sc li{
+            padding:6px 20px;
+        }
+        .sc .qb{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 10px;
+            padding-right: 40px;
+            position: relative;
+        }
+        .sc .qb .yc{
+            width: 160px;
+            left:0;
+            top:33px;
+            position: absolute;
+            background-color:#f8eee2;
+            border-left:1px solid #cdbda4;
+            border-right:1px solid #cdbda4;
+            display: none;
+        }
+        .sc .qb:hover .yc{
+            display: block;
+        }
+        .sc .qb .yc img{
+            position: absolute;
+            right:5px;
+            margin-top:5px;
+        }
+        .sc .qb .yc a{
+            color: black;
+        }
+
+        .sc .sy{
+            background-color: #ab0c06;
+        }
+        .sc .tmh{
+            position: relative;
+            margin-right:10px;
+        }
+        .sc .tmh img{
+            position: absolute;
+            right:-8px;
+            top:8px;
+        }
+        .sc .phb{
+            position: relative;
+            margin-right:10px;
+        }
+        .sc .phb img{
+            position: absolute;
+            right:-8px;
+            top:8px;
+        }
+        .sc .yhq{
+            position: relative;
+            margin-right:10px;
+        }
+        .sc .yhq img{
+            position: absolute;
+            right:-8px;
+            top:8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sc">
+        <div class="qb">
+            <a href="#">全部分类和品牌</a>
+            <div class="yc">
+                <li><a href="#">美容美妆</a><img src="images/43.png" alt="" ></li>
+                <li><a href="#">品牌男装</a><img src="images/43.png" alt=""></li>
+            </div>
+        </div>
+        <li class="sy"><a href="#">首页</a></li>
+        <li><a href="#">团购</a></li>
+        <li><a href="#">抢购</a></li>
+        <li><a href="#">包邮</a></li>
+        <li class="tmh"><a href="#">特卖会</a><img src="images/42.png" alt=""></li>
+        <li><a href="#">新店</a></li>
+        <li><a href="#">新品</a></li>
+        <li class="phb"><a href="#">排行榜</a><img src="images/42.png" alt=""></li>
+        <li class="yhq"><a href="#">优惠券</a><img src="images/42.png" alt=""></li>
+        <li><a href="#">主题导购 </a></li>
+    </div>
+</body>
+</html>

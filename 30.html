@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国美</title>
+    <style>
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .gm {
+            width: 520px;
+            display: flex;
+            border-bottom: 2px solid #c70304;
+        }
+
+        .gm .sy{
+            padding:5px 15px;
+            margin-left:5px;
+            background-color: #cc0001;
+            position: relative;
+        }
+        .gm .sy a{
+            color: #fff;
+        }
+        .gm .sy .yc{
+            background-color:#fcdcad;
+            position: absolute;
+            top:33px;
+            width: 210px;
+            display: none;
+            left:-5px;
+            border-left:1px solid #f8bb8f;
+            border-right:1px solid #f8bb8f;
+        }
+        .gm .sy:hover .yc{
+            display: block;
+        }
+
+        .gm .sy .yc a{
+            color: #c90035;
+            display: block;
+            padding:5px;
+            margin:5px 0;
+        }
+
+        .gm li{
+            padding:5px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gm">
+        <div class="sy">
+            <a href="#">首页</a>
+            <div class="yc">
+                <a href="#">全部商品分类</a>
+                <img src="images/46.png" alt="">
+            </div>
+        </div>
+        <li><a href="#">促销专区</a></li>
+        <li><a href="#">团购</a></li>
+        <li><a href="#">限时抢购</a></li>
+        <li><a href="#">套购专区</a></li>
+        <li><a href="#">排行榜</a></li>
+    </div>
+</body>
+
+</html>
